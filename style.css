@@ -6,52 +6,50 @@
     box-sizing: border-box;
     background-color: whitesmoke;
     padding: 10px;
-
 }
 
- #logo  {
-     float: left;
-     position: relative;
- } 
  #imglogo {
-     position: absolute;
-    bottom: 20px;
+    float: left;
+    margin-top: 10px;
  }
  h1 {
-    float: right;
-    position: absolute;
-    top: 0px;
-    left: 65px;
     font-family: 'Limelight', cursive;
-
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    
  }
  h3 {
-     margin-top: 47px;
-     margin-left: 55px;
+     margin-left: 37px;
      font-size: x-small;
      color: rgb(131, 134, 134);
+     padding-top: 0px;
+     margin-top: 0px;
+     
  }
  #img {
      float: right;
-     position: relative;
+   
+    
      
  } 
 
 ul li {
     display: inline-block;
-    padding-left: 0px;
-    padding-right: 0px;
+    
+}
+ul li img {
+    margin: 0px;
 }
 
 ul li:nth-child(8) {
-    position : absolute;
     left: 343px;
 }
 
-main {
-    clear: both;
+/* main {
+    /* clear: both; */
 }
-hr {
+/* hr {
     height: 15px;
     background-color : rgb(146, 145, 145);
-}
+} */ 
