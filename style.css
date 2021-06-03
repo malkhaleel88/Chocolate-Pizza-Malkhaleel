@@ -4,14 +4,17 @@
 
 *{
     box-sizing: border-box;
-    background-color: whitesmoke;
     padding: 10px;
+}
+#divmini1{
+    float: left;
 }
 
  #imglogo {
     float: left;
     margin-top: 10px;
  }
+
  h1 {
     font-family: 'Limelight', cursive;
     margin-top: 0px;
@@ -27,29 +30,63 @@
      margin-top: 0px;
      
  }
- #img {
-     float: right;
-   
+ #div1{
+     float: right; 
     
-     
  } 
+ #div1 img{
+     padding: 0px;
+ }
 
-ul li {
-    display: inline-block;
-    
-}
-ul li img {
-    margin: 0px;
-}
 
-ul li:nth-child(8) {
-    left: 343px;
+main {
+    clear: both;
 }
-
-/* main {
-    /* clear: both; */
-}
-/* hr {
+hr {
     height: 15px;
     background-color : rgb(146, 145, 145);
-} */ 
+}
+
+#title{
+    float: left;
+}
+
+#lolo{
+    float: right;
+    
+}
+#div3{
+    margin-top: 100px;
+   
+}
+#mimg{
+    width: 100%;
+}
+#div5{
+    background-image: url("img/list-bg.png");
+    padding-right: 500px;
+    
+}
+#div6{
+    float: left;
+    background-image: url("img/list-bg.png");
+}
+#div7{
+    float:right;
+    background-image: url("img/list-bg.png");
+}
+#div8{
+    clear: both;
+}
+#div10{
+    float: left;
+}
+#div11{
+    float: right;
+}
+footer{
+    clear: both;
+}
+#hr1{
+    height:2px;
+}
