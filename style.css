@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    padding: 10px;
+
+}
+
+ #logo  {
+     float: left;
+     position: relative;
+ } 
+ #imglogo {
+     position: absolute;
+    bottom: 20px;
+ }
+ h1 {
+    float: right;
+    position: absolute;
+    top: 0px;
+    left: 65px;
+    font-family: 'Limelight', cursive;
+
+ }
+ h3 {
+     margin-top: 47px;
+     margin-left: 55px;
+     font-size: x-small;
+     color: rgb(131, 134, 134);
+ }
+ #img {
+     float: right;
+     position: relative;
+     
+ } 
+
+ul li {
+    display: inline-block;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+ul li:nth-child(8) {
+    position : absolute;
+    left: 343px;
+}
+
+main {
+    clear: both;
+}
+hr {
+    height: 15px;
+    background-color : rgb(146, 145, 145);
+}
