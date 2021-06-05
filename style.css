@@ -10,50 +10,62 @@
     float: left;
 }
 
- #imglogo {
+#imglogo{
     float: left;
     margin-top: 10px;
- }
+}
 
- h1 {
+h1{
     font-family: 'Limelight', cursive;
     margin-top: 0px;
     padding-bottom: 0px;
     margin-bottom: 0px;
     
- }
- h3 {
+}
+h3{
      margin-left: 37px;
      font-size: x-small;
      color: rgb(131, 134, 134);
      padding-top: 0px;
      margin-top: 0px;
      
- }
- #div1{
-     float: right; 
-    
- } 
- #div1 img{
+}
+#div1{
+     float: right;
+} 
+#div1 img{
      padding: 0px;
- }
-
-
-main {
+     margin-top: 30px ;
+}
+main{
     clear: both;
 }
-hr {
+.hr1{
     height: 15px;
     background-color : rgb(146, 145, 145);
 }
-
 #title{
     float: left;
-}
 
-#lolo{
+}
+#title h3{
+    margin: 0px;
+}
+#pr1{
+    float: right;    
+}
+#print{
+    float: left;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+h6{
     float: right;
-    
+    position: relative;
+    top: 47px;
+    left: 5px;
+    color: rgb(131, 134, 134);    
 }
 #div3{
     margin-top: 100px;
@@ -63,30 +75,97 @@ hr {
     width: 100%;
 }
 #div5{
-    background-image: url("img/list-bg.png");
-    padding-right: 500px;
-    
+    position: relative;
+    text-align: left;
+    color: black;
 }
 #div6{
-    float: left;
-    background-image: url("img/list-bg.png");
+    position: absolute;
+    top: 40px;
+    left: 80px;
 }
 #div7{
-    float:right;
-    background-image: url("img/list-bg.png");
+    position: absolute;
+    top: 40px;
+    left: 50%;
+}
+ul li{
+    list-style: none;
 }
 #div8{
     clear: both;
 }
+
+#div9{
+    float: left;
+}
 #div10{
     float: left;
 }
-#div11{
+#last{
     float: right;
+}
+#last h2{
+    margin-left: 10px;
+    text-align: left;
+    margin-top: 12px;
+    padding: 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#last p{
+    margin-left: 10px;
+    text-align: left;
+    position: relative;
+    top: -10px;
+    padding: 0px;
+    font-size: 25px;
+}
+#share{
+    float: right;
+    position: relative;
+    top: 50px;   
+}
+button{
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    padding-top: 5px;
+    zoom: 200%;
+    height: 30px;
+    cursor: pointer;
+
 }
 footer{
     clear: both;
+    padding: 0px;
 }
-#hr1{
-    height:2px;
+#hr2{
+    border: none;
+    border-top: 1px double rgb(231, 223, 223);
+    width: 75%;
+    overflow: visible;
+    text-align: center;
+    margin-bottom: 0px;
+}
+#hr2:after{
+    content: url("img/small-logo.png");
+    padding: 0px;
+    position: relative;
+    top: -27px;
+}
+#div11 h3{
+    text-align: center;
+    font-size: 13px;
+    padding: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    top: -27px;
+}
+#hr3{
+    border: none;
+    border-top: 1px double rgb(231, 223, 223);
+    position: relative;
+    top: 50px;
+    width: 100%;
 }
